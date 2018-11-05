@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "@sibeeshpassion/ng-private-menu",
+  "version": "1.0.0",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    }
+  },
+  "whitelistedNonPeerDependencies": [
+    "@angular/animations",
+    "@angular/cdk",
+    "@angular/common",
+    "@angular/compiler",
+    "@angular/forms",
+    "@angular/core",
+    "@angular/http",
+    "@angular/material",
+    "@angular/platform-browser",
+    "@angular/platform-browser-dynamic",
+    "@angular/router",
+    "core-js",
+    "rxjs",
+    "tsickle",
+    "zone.js"
+  ]
+}
