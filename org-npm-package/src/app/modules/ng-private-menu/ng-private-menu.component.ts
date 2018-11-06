@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ng-private-menu',
@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-private-menu.component.scss']
 })
 export class NgPrivateMenuComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @Input()
+  items;
+  ngOnInit() { }
 }

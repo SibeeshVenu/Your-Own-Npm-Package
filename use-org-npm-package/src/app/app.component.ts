@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  items;
+  constructor() {
+    this.items = [
+      {
+        label: 'Vertebrates'
+      },
+      {
+        label: 'Invertebrates'
+      },
+      {
+        label: 'Test'
+      }
+    ];
+  }
   title = 'use-org-npm-package';
 }
